@@ -1,0 +1,49 @@
+css notes
+
+
+design 
+
+css ---> HTML page --> 
+
+
+1) external file -> css file  
+2) internal css -> with in the html head 
+3) inline css-> style=""
+
+
+inline -> 
+    style="color:red" 
+
+
+    property:value 
+
+    key : value 
+
+HTML -> empty tag -->   <br>  </hr>  
+        container tag ---> <body> </body> 
+
+---------------------------------------------------------------------
+internal css ---> 
+
+        background-color
+        text-align
+        font-size
+        font-family 
+        border
+        border-radius
+        padding
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
