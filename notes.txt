@@ -33,15 +33,63 @@ internal css --->
         border-radius
         padding
 ---------------------------------------------------------------------
+css -> tag 
+
+p{
+        color:red;
+}
 
 
 
+class-> . dot operator  
+id-> #  hashtag 
+
+
+p{
+
+}
+
+.p{
+
+}
+
+#p{
+
+}
+
+
+.box{
+
+}
+
+.font{
+
+}
+
+.content{
+
+}
 
 
 
+        body {
+            background-color: antiquewhite;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
 
+        label {
+            width: 100px;
+        }
 
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
 
 
 
