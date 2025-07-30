@@ -71,7 +71,29 @@ p{
 }
 
 
+widget -> 
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        .nav {
+            display: flex;
+            margin-left: 20px;
+            margin-top: 60px;
+        }
 
+        .box {
+            border: 1px solid black;
+            width: 200px;
+            padding: 50px;
+            border-radius: 10px;
+            margin-left: 50px;
+            background-color: wheat;
+        }
+    </style>
+
+
+login->
         body {
             background-color: antiquewhite;
             height: 100vh;
@@ -92,6 +114,44 @@ p{
         }
 
 
+----------------------------------------------------------------------------------------------------------
+
+flex -> 
+
+
+    display:flex
+
+    parent 
+        child 
+
+
+    single dimension array -> 
+
+
+   ex.1  [ ] [ ] [ ] [ ] [ ]
+
+    ex.2 [ ]
+         [ ]
+         [ ]
+
+    <div>
+        <div><div>
+    </div>
+
+
+    <div class="one">
+        <div class="two">
+            <div class="three"><div>
+        <div>
+    </div>
 
 
 
+<div>
+    <p></p>
+</div>
+
+display:flex
+flex-direction:r 
+
+-----------------------------------------------------------
