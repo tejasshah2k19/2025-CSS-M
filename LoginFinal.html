@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            border: 1px solid black;
+            width: 280px;
+            padding: 40px;
+            background-color: azure;
+            /* box-shadow: -5px 5px black , 5px 5px black ;
+         */
+            box-shadow: 5px 5px 15px black;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            padding: 8px;
+            margin-bottom: 10px;
+            width: 100%;
+            border: 1px solid #aaa;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .button-container input {
+            padding: 5px 10px;
+            background-color: rgb(121, 236, 121);
+        
+        }
+        .button-container input[type="reset"] {
+            background-color: red;
+        }
+        .button-container input:hover{
+            background-color: rgb(18, 125, 18);
+            cursor: pointer;
+        }
+
+        a{
+            color: red;
+        }
+        a:hover{
+            color: blue;
+        }
+        .footer{
+            margin-top: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <form action="" method="post">
+
+            <label for="userName">Username</label>
+            <input type="text" name="userName" id="userName"  placeholder="please enter username"/>
+
+            <label>Password</label>
+            <input type="password" name="password"  placeholder="please enter password"/>
+
+            <div class="button-container">
+                <input type="submit" value="Login" />
+                <input type="reset" value="Clear"/>
+            </div>
+        </form>
+
+        <div class="footer">
+            New User? <a href="Signup">Register</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
